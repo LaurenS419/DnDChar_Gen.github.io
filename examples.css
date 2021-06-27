@@ -1,0 +1,120 @@
+:root{
+    position: relative;
+    width: 1440px;
+    height: 2100px;
+    
+    --white: #ffffffff;
+    --whitebg: #F8F8F8;
+    --grey: #313131;
+    --blue: #5EC5FF;
+    --black: #000000;
+    padding: 10px;
+}
+
+
+#titleExamples {
+    color: var(--grey);
+    position: absolute;
+    top: 50px; 
+    left: 600px;
+    text-align: center;
+}
+
+#line  {
+    height: 5px; 
+    color: var(--grey);
+    width: 400px;
+    position:relative;
+    top:125px
+}
+
+.chars{
+    color: var(--black);
+}
+
+#Char1 {
+    position: absolute;
+    top: 150px; 
+    left: 250px;
+}
+
+#Char2 {
+    position: absolute;
+    top: 150px; 
+    left: 1070px;
+}
+
+
+#other1 {
+    position: absolute;
+    top: 180px; 
+    left: 125px;
+}
+#stats11 {
+    position: absolute;
+    top: 415px; 
+    left: 125px;
+}
+#stats12 {
+    position: absolute;
+    top: 860px; 
+    left: 125px;
+}
+#stats13 {
+    position: absolute;
+    top: 1340px; 
+    left: 125px;
+}
+
+#other2 {
+    position: absolute;
+    top: 180px; 
+    left: 930px;
+}
+#stats21 {
+    position: absolute;
+    top: 440px; 
+    left: 930px;
+}
+#stats22 {
+    position: absolute;
+    top: 880px; 
+    left: 930px;
+}
+#stats23 {
+    position: absolute;
+    top: 1360px; 
+    left: 930px;
+}
+
+
+.button {
+    background-color: var(--blue);
+    border-radius: 10px;
+    width: 110px;
+    text-align: center;
+}
+
+#butA2 {
+    position: absolute;
+    top: 2000px; 
+    left: 450px;
+    color: var(--black); 
+    border: 10px solid var(--blue);
+    text-decoration: none; 
+}
+
+#butB2 {
+    position: absolute;
+    top: 2000px; 
+    left: 915px; 
+    color: var(--black);
+    border: 10px solid var(--blue);
+    text-decoration: none; 
+}
+
+#logo {
+    position: fixed;
+    top: 0px; 
+    left: 0px;  
+}
