@@ -1,0 +1,84 @@
+:root{
+    width: 1440px;
+    height: 700px;
+    
+    --white: #ffffffff;
+    --whitebg: #F8F8F8;
+    --grey: #313131;
+    --blue: #5EC5FF;
+    --black: #000000;
+    padding: 10px;
+}
+
+
+#titleAbout {
+    color: var(--grey);
+    position: fixed;
+    top: 50px; 
+    left: 640px;
+    text-align: center;
+}
+
+#line  {
+    height: 5px; 
+    color: var(--grey);
+    width: 400px;
+    position:relative;
+    top:125px
+
+}
+
+#aboutText {
+    color: var(--black);
+    position: fixed;
+    top: 175px; 
+    left: 350px;
+    text-align: left;
+    width: 500px;
+}
+
+#link {
+    position: fixed;
+    top: 500px; 
+    left: 570px;
+    text-align: left;
+    width: 500px;
+}
+
+#pic {
+    position: fixed;
+    top: 175px; 
+    left: 900px;
+    height: 300px;
+}
+
+.button {
+    background-color: var(--blue);
+    border-radius: 10px;
+    width: 110px;
+    text-align: center;
+}
+
+#butB1 {
+    position: fixed;
+    top: 550px; 
+    left: 450px;
+    color: var(--black); 
+    border: 10px solid var(--blue);
+    text-decoration: none; 
+}
+
+#butE2 {
+    position: fixed;
+    top: 550px; 
+    left: 915px; 
+    color: var(--black);
+    border: 10px solid var(--blue);
+    text-decoration: none; 
+}
+
+#logo {
+    position: fixed;
+    top: 0px; 
+    left: 0px;  
+}
